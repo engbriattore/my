@@ -1,0 +1,10 @@
+{
+  "name": "simulado-poema-tea",
+  "private": true,
+  "description": "Gerador do simulado de poema adaptado para estudantes autistas",
+  "scripts": {
+    "build": "node build.js && python3 fix_pbdr.py Simulado_Poema_TEA_v3.docx",
+    "preview": "node preview.js"
+  },
+  "dependencies": { "docx": "^9.7.1" }
+}
