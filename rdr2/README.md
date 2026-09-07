@@ -15,9 +15,11 @@ Nenhum deles altera nada sem você pedir: por padrão simulam e mostram o plano.
 
 | Script | Para quê |
 |---|---|
+| `RDR2-INSTALAR-TUDO.ps1` | Faz o percurso inteiro numa execução: acha o jogo, backup, mods, shaders e preset. |
 | `Verificar-Instalacao.ps1` | Diagnostica a pasta do jogo: o que está instalado, o que falta, qual o próximo passo. Somente leitura. |
 | `Backup-RDR2.ps1` | Copia saves e configurações antes de mexer em qualquer coisa. Também restaura. |
 | `Instalar-Mods.ps1` | Instala os mods a partir dos `.zip` baixados, na ordem correta, com backup do que for sobrescrito. |
+| `RDR2-GARANTIR-RESHADE.ps1` | Cuida do ReShade do começo ao fim: detecta a API do jogo, instala, valida o preset e só termina quando confirma que está tudo no lugar. |
 | `Configurar-ReShade.ps1` | Instala os shaders que o preset exige e aponta o `ReShade.ini` para ele. |
 | `Modo-Online.ps1` | Desliga/religa os mods para entrar no Red Dead Online com segurança. |
 
